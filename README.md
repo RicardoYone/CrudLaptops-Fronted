@@ -1,29 +1,30 @@
-# vue-project
+# Frontend - CRUD Laptops
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicación frontend desarrollada en **Vue.js** para interactuar con la API de laptops.
 
-## Recommended IDE Setup
+## Tecnologías usadas
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Vue.js
+- Vite
 
-## Customize configuration
+## Instrucciones para levantar el frontend
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+1. Ir a la carpeta `vue-project`:
+   ```bash
+   cd vue-project
+   ```
+2. Instalar dependencias:
+   ```bash
+   npm install
+   ```
+3. Levantar el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+   El frontend estará disponible en `http://localhost:5173`
 
-## Project Setup
+## Buenas prácticas de Git
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- Usa ramas para nuevas funcionalidades o correcciones.
+- Escribe mensajes de commit claros y descriptivos.
+- Utiliza `.gitignore` para evitar subir archivos sensibles o innecesarios.
